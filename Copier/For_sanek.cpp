@@ -20,6 +20,8 @@ void read_file(std::string filename, std::vector<int>& numbers) {
 		file_with_numbers >> i;
 		numbers.push_back(i);
 	}
+
+	file_with_numbers.close();
 }
 
 int main()
